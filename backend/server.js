@@ -4,9 +4,14 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
+const allowedOrigins = [
+  "https://qpay.thekundankumar.com", // Local development
+  "https://q-pay-frontend.vercel.app" // Deployed frontend
+];
+
 app.use(
   cors({
-    origin: "https://q-pay-frontend.vercel.app", // Allow frontend origin
+    origin: allowedOrigins, // Allow frontend origin
     credentials: true, // Allow cookies and headers
   })
 );
