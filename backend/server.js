@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow frontend origin
+    origin: "https://q-pay-frontend.vercel.app", // Allow frontend origin
     credentials: true, // Allow cookies and headers
   })
 );
