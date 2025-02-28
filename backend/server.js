@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const allowedOrigins = [
   "https://qpay.thekundankumar.com", // Local development
-  "https://q-pay-frontend.vercel.app" // Deployed frontend
+  "https://q-pay-frontend.vercel.app", // Deployed frontend
 ];
 
 app.use(
