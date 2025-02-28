@@ -16,7 +16,7 @@ function Login() {
       if (response.success) {
         message.success(response.message);
         localStorage.setItem("token", response.data);
-        navigate("/");
+        navigate("/home");
       } else {
         message.error(response.message);
       }

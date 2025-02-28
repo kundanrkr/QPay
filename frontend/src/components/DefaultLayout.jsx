@@ -10,8 +10,8 @@ function DefaultLayout({ children }) {
     {
       title: "Home",
       icon: <i className="ri-home-2-line"></i>,
-      onClick: () => navigate("/"),
-      path: "/",
+      onClick: () => navigate("/home"),
+      path: "/home",
     },
     {
       title: "Users",
@@ -42,9 +42,9 @@ function DefaultLayout({ children }) {
       icon: <i className="ri-logout-box-line"></i>,
       onClick: () => {
         localStorage.removeItem("token");
-        navigate("/login");
+        navigate("/");
       },
-      path: "/logout",
+      path: "/",
     },
   ];
 
@@ -52,8 +52,8 @@ function DefaultLayout({ children }) {
     {
       title: "Home",
       icon: <i className="ri-home-2-line"></i>,
-      onClick: () => navigate("/"),
-      path: "/",
+      onClick: () => navigate("/home"),
+      path: "/home",
     },
     {
       title: "Transactions",
@@ -78,9 +78,9 @@ function DefaultLayout({ children }) {
       icon: <i className="ri-logout-box-line"></i>,
       onClick: () => {
         localStorage.removeItem("token");
-        navigate("/login");
+        navigate("/");
       },
-      path: "/logout",
+      path: "/",
     },
   ];
   const menuToRender = user?.isAdmin ? adminMenu : userMenu;

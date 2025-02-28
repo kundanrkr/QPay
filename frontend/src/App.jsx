@@ -13,6 +13,7 @@ import Transactions from "./pages/Transactions";
 import Requests from "./pages/Requests";
 import Users from "./pages/Users";
 import Profile from "./pages/Profile";
+import LandingPage from "./pages/Landing";
 import ProtectedRoute from "./components/ProtectedRoute";
 // import PublicRoute from "./components/PublicRoute";
 import Loader from "./components/Loader";
@@ -28,8 +29,9 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/" element={<LandingPage />} />
           <Route
-            path="/"
+            path="/home"
             element={
               <ProtectedRoute>
                 <Home />

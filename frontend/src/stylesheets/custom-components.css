@@ -63,3 +63,7 @@ table {
     transform: rotate(360deg);
   }
 }
+
+.h-12 {
+  height: 48px;
+}

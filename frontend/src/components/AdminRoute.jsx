@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 const AdminRoute = ({ children }) => {
   const { user } = useSelector((state) => state.users);
-  return user?.isAdmin ? children : <Navigate to="/" />;
+  return user?.isAdmin ? children : <Navigate to="/home" />;
 };
 
 export default AdminRoute;

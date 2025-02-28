@@ -9,7 +9,7 @@ function PublicRoute({ children }) {
     const token = localStorage.getItem("token");
 
     if (token) {
-      navigate("/");
+      navigate("/home");
     } else {
       setLoading(false);
     }

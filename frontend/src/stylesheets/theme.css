@@ -39,3 +39,7 @@
   padding: 10px;
   border-radius: 3px;
 }
+
+.bg-white {
+  background-color: #fff;
+}

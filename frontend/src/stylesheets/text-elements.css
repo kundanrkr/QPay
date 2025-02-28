@@ -1,3 +1,6 @@
+.text-3xl {
+  font-size: 30px;
+}
 .text-2xl {
   font-size: 25px !important;
 }
@@ -19,6 +22,9 @@
 }
 .text-right {
   text-align: right;
+}
+.text-bold {
+  font-weight: bold;
 }
 
 .underline {

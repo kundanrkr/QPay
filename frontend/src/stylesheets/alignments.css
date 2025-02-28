@@ -6,6 +6,11 @@
 .h-50 {
   height: 50%;
 }
+
+.h-80 {
+  height: 88%;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -15,8 +20,22 @@
 .w-400 {
   width: 400px;
 }
+
+.w-550 {
+  width: 550px;
+}
+
+.w-600 {
+  width: 600px;
+}
+.w-900 {
+  width: 900px;
+}
 .w-50 {
   width: 50%;
+}
+.max-w-80 {
+  max-width: 80%;
 }
 
 .flex {
@@ -27,6 +46,9 @@
 }
 .flex-grow {
   flex-grow: 1; /* Allows the element to grow and take available space */
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .justify-center {
   justify-content: center;
@@ -99,4 +121,37 @@
 }
 .mb-1 {
   margin-bottom: 10px;
+}
+.mr- {
+  margin-right: 20px;
+}
+
+.flex-1 {
+  flex: 1; /* Makes the element grow to take available space */
+}
+
+.w-full {
+  width: 100%; /* Ensures full width */
+}
+
+.p-6 {
+  padding: 1.5rem; /* Equivalent to Tailwind's p-6 */
+}
+.align-left {
+  align-items: flex-start;
+}
+
+.px-15 {
+  padding-inline: 15%;
+}
+.landing {
+  overflow: hidden;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.br-50 {
+  border-radius: 50%;
 }

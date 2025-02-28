@@ -18,6 +18,11 @@ textarea:focus {
   color: white;
   padding: 8px 20px;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.primary-contained-btn:hover {
+  background-color: #0056b3;
 }
 
 .primary-outlined-btn {
@@ -26,4 +31,9 @@ textarea:focus {
   padding: 8px 20px;
   text-transform: uppercase;
   border: 1px solid var(--primary);
+  font-weight: bold;
+}
+.primary-outlined-btn:hover {
+  background-color: #007bff;
+  color: white;
 }
